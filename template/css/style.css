@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.col.alert {
+	padding: 0 0.75rem;
+	margin-top: 1rem;
+}
+.col.alert .alert-text {
+	padding: 10px 20px;
+}
+.menu-account {
+	position: relative;
+	padding: 20px 0px;
+}
+.card.horizontal .card-image img {
+    max-width: 150px;
+	max-height: 200px;
+}
+.card .card-content .card-title {
+	font-size: 18px;
+    line-height: 22px;
+    max-height: 22px;
+	overflow: hidden;
+}
+.card .card-content p {
+    font-size: 14px;
+    line-height: 18px;
+	max-height: 90px;
+	overflow: hidden;
+}
+.card.horizontal.product-card .card-image img {
+    max-width: 300px;
+	max-height: 400px;
+}
